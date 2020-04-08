@@ -1,5 +1,10 @@
 <?php 
-require 'Calculator.php';
+
+namespace Test;
+
+use src\Calculator;
+use PHPunit\Framework\Testcase;
+
 class CalculatorTests extends PHPUnit_Framework_TestCase
 {
     private $calculator;
